@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211304731326",
+    "firebase_url": "https://golden-elite-app.firebaseio.com",
+    "project_id": "golden-elite-app",
+    "storage_bucket": "golden-elite-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211304731326:android:fffe35066e5f3b5e7804ef",
+        "android_client_info": {
+          "package_name": "com.makyg.ge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211304731326-npg55mcilplvl05b2s7jrersm0hornh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkeer2r1FhXZcTdv8CUA1b4Xs1eQtNSPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211304731326-npg55mcilplvl05b2s7jrersm0hornh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

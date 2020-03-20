@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/story_image"
+            android:layout_marginTop="7dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/profile"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/story_add"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/add"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white"
+            >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/add_story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:text="Add story"
+        android:textSize="12sp"
+        >
+
+    </TextView>
+
+</LinearLayout>
